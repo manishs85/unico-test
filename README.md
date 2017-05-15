@@ -8,9 +8,9 @@ GENERAL
    script location : /hibernate/sql/CreateScript.sql
 3. An application server would be required to host the application. 
 4. The solution consites of 3 maven projects with all dependencies needed listed in the respective pom.xml:
-  a. hibernate (common project imported in the build path of other 2 projects) - responsible for Hibernate based actions.
-  b. service (REST service project)
-  c. soap (SOAP service project)
+  	a. hibernate (common project imported in the build path of other 2 projects) - responsible for Hibernate based actions.
+  	b. service (REST service project)
+  	c. soap (SOAP service project)
 
 REST Service URL:
 PUSH service : server:port/service/push?num1=<>&num2=<>
