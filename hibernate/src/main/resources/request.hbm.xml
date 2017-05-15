@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.unico.common.Request" table="request">
+		<id name="id" type="java.lang.Integer">
+			<column name="ID" />
+			<generator class="identity" />
+		</id>
+		<property name="num1" type="java.lang.Integer">
+			<column name="NUM1" not-null="true" />
+		</property>
+		<property name="num2" type="java.lang.Integer">
+			<column name="NUM2" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>
